@@ -1,6 +1,8 @@
 # Quiltmatician
 
-![Screenshot](https://github.com/bbadh001/Quiltmatician/blob/master/assets/screenshot.png)
+<p align="center">
+  <img width="500" src="https://github.com/bbadh001/Quiltmatician/blob/master/assets/screenshot.png">
+</p>
 
 Quiltmatician is a fabric-cutting utility designed for quilters to minimize fabric used for cutting primitive shapes. 
 
