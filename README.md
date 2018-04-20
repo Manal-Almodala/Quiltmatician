@@ -6,5 +6,7 @@ When a quilter begins a new project, they first start by planning how many "prim
 ## How to run
 
 ```
-git clone
+git clone https://github.com/bbadh001/Quiltmatician.git
+cd Quiltmatician
+python Quilt-matician.py
 ```
