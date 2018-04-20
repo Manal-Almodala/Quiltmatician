@@ -5,6 +5,8 @@ When a quilter begins a new project, they first start by planning how many "prim
 
 ## How to run
 
+Open terminal and run the following commands:
+
 ```
 git clone https://github.com/bbadh001/Quiltmatician.git
 cd Quiltmatician
