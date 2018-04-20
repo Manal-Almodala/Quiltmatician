@@ -146,10 +146,11 @@ class MainApplication(tk.Frame):
     	maxLength = 0
     	for i in range(self.gridWidth):
     	    j = 0
-    	    while (bitMap[j][i] != 0):
+    	    while (self.bitMap[j][i] != 0 and j < self.gridWidth):
     	    	j += 1
     	    if (j > maxLength):
     	    	maxLength = j
+    	return maxLength/72
 
 
     def fillGrid(self,squareList):
@@ -250,8 +251,8 @@ class MainApplication(tk.Frame):
 
         tempSquareList = self.squareList.copy()
         self.initBitMap() 
-        self.lengthNeeded = self.fillGrid(tempSquareList)
-        print("Length: " + str( round(self.lengthNeeded,3) ) )
+        self.fillGrid(tempSquareList)
+        self.lengthNeeded = self.getLengthNeeded()
         self.neededLengthLabel.config(text=str( round(self.lengthNeeded,3)) + " yards")
         self.paintGrid()
         self.paintShapes()
