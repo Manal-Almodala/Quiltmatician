@@ -1,2 +1,2 @@
 # Quiltmatician
-Optimal fabric-cutting utility
+Quiltmatician is a fabric-cutting utility for quilters minimize fabric needed for cutting primitive shapes. 
