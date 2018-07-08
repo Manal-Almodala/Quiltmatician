@@ -17,3 +17,7 @@ git clone https://github.com/bbadh001/Quiltmatician.git
 cd Quiltmatician
 python Quilt-matician.py
 ```
+
+## The problem
+
+The problem is essentially a slightly modified (more on this later) version of the 2D cutting stock problem, which belongs to a greater set of problems called Cobinairoial Optimization problems. 
