@@ -26,7 +26,7 @@ It should be quite clear why this problem is so difficult. The number of possibl
 
 ## A simple approach (to a hard problem)
 
-Now is probbaly a good time to note that packing and cutting stock problems are in-fact NP-hard problems. With this in mind, we shouldn't hold our breath trying to find a effieinct exact solution. However, 
+Now is probbaly a good time to note that packing and cutting stock problems are in fact NP-hard problems. With this in mind, we shouldn't hold our breath trying to find a efficinct exact solution. One way around this is to devise a polynomial approiximation algorithm. Like the name suggests, we can almost guarntee will not arrive at the optimal solution, but we can hopefully arrive at a solution that is "good enough".
 
 
 
