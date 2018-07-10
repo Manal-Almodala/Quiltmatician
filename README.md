@@ -24,9 +24,16 @@ The problem is essentially a slightly modified (more on this later) version of t
 
 It should be quite clear why this problem is so difficult. The number of possible packings on a 2D grid is typically too large, even for a relatively small number of items. Hence, we can't simply brute force search our way through the solution space to look for the optimal packing.  
 
+Now is probbaly a good time to note that packing and cutting stock problems are in fact NP-hard problems. With this in mind, we shouldn't hold our breath trying to find efficient exact solution. One way around this is to devise a polynomial approximation algorithm. Like the name suggests, we can almost guarantee it will not arrive at the optimal solution, but we can hopefully arrive at a solution that is "good enough".
+
 ## A simple approach (to a hard problem)
 
-Now is probbaly a good time to note that packing and cutting stock problems are in fact NP-hard problems. With this in mind, we shouldn't hold our breath trying to find efficient exact solution. One way around this is to devise a polynomial approximation algorithm. Like the name suggests, we can almost guarantee it will not arrive at the optimal solution, but we can hopefully arrive at a solution that is "good enough".
+A concept that comes up frequently when talking about approximation algorithms is this idea of a heuristic. A heuristic can be thought of as "rule of thumb" reasoning or an inutitive judegment, , that helps reach an approximate solution. 
+Superisingly, this problem has an incredibly simple, well-known heuristic called the first-fit decreasing (FFD hurestic, whihc 
+
+
+
+
 
 
 
