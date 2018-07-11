@@ -34,4 +34,18 @@ The algorithm I implemeneted involves the use of an incredibly simple, well-know
 
 ## Pitfalls (and some thoughts on how to fix them)
 
-There is one major caveat that I found unique to this problem. While this simple algorithm does genernate patterns
+There is one major caveat that I found unique to this problem. While the current algorithm does genernate patterns that appear to minimize material length, it never considers the placement of cutting lines. If it were the case that we could give these cutting patterns to a machine to cut, then not considering the cutting lines is something that does not pose a problem. However, if we expect a quilter to cut these patterns out by hand, they should at least be managable to cut. Yet, because cutting lines are never factored into the algorithm, we could potentially generate patterns that are perfectly optimized with respect to length but have extremely convoulted cutting lines, making them virtually impossible for a human to cut by hand. 
+
+I have considered a few possible solutions to this problem. The first, would be keep the current algorithm and think of a possible solution of minimizing cutting length. An example would be,
+
+.
+
+.
+
+A second approach would be to scrap the current algorithm all together and opt for a algorothm that tends to produce cutting lines that are not very convoltuted. An example of an algorithm that tends to od this naturally is level algorithms, which split the bin into horizintal levels and packs each level until they are filled. This looks hopeful as each horizontal level tends to maintain straighter cutting lines. 
+
+A third approach would be devisding some sort of genetic algorithm . This approach would probably require the most reaserch and implementation time but I would suspect this would produce a very good solution
+
+
+
+
