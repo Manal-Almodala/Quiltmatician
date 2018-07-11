@@ -38,9 +38,13 @@ There is one major caveat that I found unique to this problem. While the current
 
 I have considered a few possible solutions to this problem. The first, would be keep the current algorithm and think of a possible solution of minimizing cutting length. An example would be,
 
-.
+<p align="center">
+  <img width="250" src="https://github.com/bbadh001/Quiltmatician/blob/master/assets/screenshot.png">
+</p>
 
-.
+<p align="center">
+  <img width="250" src="https://github.com/bbadh001/Quiltmatician/blob/master/assets/screenshot.png">
+</p>
 
 A second approach would be to scrap the current algorithm all together and opt for a algorothm that tends to produce cutting lines that are not very convoltuted. An example of an algorithm that tends to od this naturally is level algorithms, which split the bin into horizintal levels and packs each level until they are filled. This looks hopeful as each horizontal level tends to maintain straighter cutting lines. 
 
